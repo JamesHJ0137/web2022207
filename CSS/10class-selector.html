@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {background-color: aqua;}
+            #head1 {
+        color: red;}
+                .note {
+                    font-family: line-through;
+                }
+                .error {
+                    text-decoration: line-through;
+                }
+                .special {
+                    text-decoration: underline;
+                }
+    </style>
+
+    
+
+<body>
+    
+<!--id selector는 #으로 시작-->
+<!--h1#head$*10>lorem3-->
+
+<h1 id="head1" class="note">Lorem, ipsum dolor.</h1>
+<h1 id="head2" class="note">culpa, autem rem.</h1>
+<h1 id="head3" class="error">accusamus, accusantium? Aliquid!</h1>
+<h1 id="head4" class="error">delectus, maiores placeat.</h1>
+<h1 id="head5" class="special">provident, eveniet repellendus.</h1>
+<h1 id="head6" class="note special">Memo, obcaecati magni.</h1>
+<h1 id="head7" class="special">voluptatem, quas veniam!</h1>
+<h1 id="head9" class="note">Corruptim explicabo alias?</h1>
+
+<hr>
+
+    <p>class attribute 작성 시 주의 사항</p>
+    <p>대소문자 구분 됨</p>
+    <p>사용할 수 있는 문자: 영문대소문자, 숫자, -, _</p>
+    <p>여러요소가 같은 class값을 가질 수 있음</p>
+    <p>하나의 요소가 여러 class값을 가질 수 있음 (class값은 space로 구분)</p>
+    
+    <!--h1.special.note>lorem3-->
+    <h1 class="special note">Lorem, ipsum dolor.</h1>
+
+
+    <!--id는 하나를 목적으로, class는 그룹을 목적으로-->
+</body>
+</head>
+</html>

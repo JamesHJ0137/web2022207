@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--class가 우선순위가 있고 id 역시 우선순위가 있다 (selector specificity)-->
+    <!--(id, class, element)-->
+    <style>
+        
+        head {
+            color: brown;
+        }
+        .note {
+            color: blue;
+        }
+        .error {
+            color: red;
+        }
+        .note.error {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="head1" class="note">Lorem, ipsum dolor.</h1>
+    <h1 id="head2" class="note">A, aliquam odit?</h1>
+
+    <h1 id="head3" class="note error">Lorem, ipsum dolor.</h1>
+    <h1 id="head4" class="note error">Maxime, magnam? Autem.</h1>
+
+</body>
+</html>

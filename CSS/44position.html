@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .sub {
+        display: none;
+        position: absolute;
+        top: -5px;
+        left: 114px;
+        background-color: black;
+        color: white;
+    }
+    ul {
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+    }
+    .sub > li {
+        padding: 15px;
+        margin: 0px;
+        width: 120px;
+    }
+    .main >li {
+        width: 120px;
+        position: relative;
+        padding: 3px;
+        margin: 0px;
+        background-color: black;
+        color: white;
+        box-sizing: border-box;
+        border: 5px solid black;
+    }
+    .main > li:hover > .sub {
+        display: block;
+        border-right: 5px solid gold;
+    }
+</style>
+<body>
+    <!--ul.main>li*5>lorem1+ul.sub>li*3>lorem1-->
+    <ul class="main">
+        <li>
+            Lorem.
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Dolor?</li>
+                <li>Nostrum.</li>
+            </ul>
+        </li>
+        <li>
+            Doloremque.
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Debitis.</li>
+                <li>Culpa!</li>
+            </ul>
+        </li>
+        <li>
+            Minus!
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Sed!</li>
+                <li>Cum?</li>
+            </ul>
+        </li>
+        <li>
+            Exercitationem?
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Obcaecati!</li>
+                <li>Vel!</li>
+            </ul>
+        </li>
+        <li>
+            Sapiente.
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Reiciendis?</li>
+                <li>Voluptatem!</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</head>
+</html>

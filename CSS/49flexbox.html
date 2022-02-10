@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .menu-container {
+            display: flex;
+            background-color: black;
+            color: azure;
+         
+        }
+        .menu-item {
+            text-align: center;
+            font-weight: bold;
+            font-size: 2em;
+            box-sizing: border-box;
+        }
+        .menu-item:hover {
+            background-color: darkgrey;
+            border-color: darkgrey;
+            border-top-color: yellow;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <div id="ex1" class="item">1</div>
+        <div id="ex2" class="item">2</div>
+        <div id="ex3" class="item">3</div>
+        <div id="ex4" class="item">4</div>
+        <div id="ex5" class="item">5</div>
+    </div>
+
+    <hr>
+
+    <!--.menu-container>,menu-item*5>lorem1-->
+    <div class="menu-container"> <!--flex container-->
+        <div class="menu-item">Lorem.</div> <!--flex item-->
+        <div class="menu-item">Deserunt.</div>
+        <div class="menu-item">Quasi.</div>
+        <div class="menu-item">Possimus.</div>
+        <div class="menu-item">Officiis?</div>
+    </div>
+
+</body>
+
+</html>

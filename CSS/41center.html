@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    span {
+        text-align: center;
+        background-color: rosybrown;
+    }
+    div {
+        text-align: center;
+        background-color: brown;
+    }
+    #ex1 {
+        width: 300px;
+        margin: auto;
+        background-color: chocolate;
+    }
+    #ex2 {
+        background-color: pink;
+        width: 30%;
+        margin: auto;
+    }
+    h1 {
+        margin: auto;
+        width: 50%;
+    }
+</style>
+<body>
+    <p>inline요소 가운데 배치</p>
+<!--span만으로 안됨 상위 element필요-->
+    <div><span>Lorem.</span></div>
+
+    <p>block 요소 가운데 배치</p>
+
+<!--margin을 auto로 두면 가운데로 정렬이 된다 (너비설정해야이동이됨)-->
+    <div id="ex1">Lorem.</div>
+
+    <hr>
+
+    <div id="ex2">Lorem.</div>
+
+    <hr>
+
+    <h1>This is a heading</h1>
+    <p>This is a paragraph</p>
+    <p>This is a paragraph</p>
+
+
+</body>
+</head>
+</html>

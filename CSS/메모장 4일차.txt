@@ -1,0 +1,18 @@
+너비와 높이:
+Content 영역 크기는 너비와 높이로 결정이 된다
+display는 크게 block과 inline으로 나뉜다
+diplay block 요소는 가장 넓은 너비, 위아래 새로운 줄에 배치
+display block = 가장 넓은 너비를 차지하려는 설정
+%는 부모 element 기준으로 바뀜
+display inline 요소는 새로운 줄에서 시작하지않고 필요한 너비만큼 차지
+div는 display: block을 제외하고 기본설정 스타일이 없기 때문에 자주 쓰임
+span에 enter를 넣으면 space 하나가 띄워짐
+div는 자주 사용하기 때문에 생략하고 class를 적어도 div가 자동 생성됨
+inline요소는 width height padding margin가 의도대로 적용되지 않음
+inline-block은 
+1: 배치는 inline처럼 
+2: 크기(width height margin padding)는 block처럼 사용가능
+display:none;→요소는 존재하지만 브라우저 표시되지 않음
+visibility: hidden; 브라우저에 표시 안되지만 공간은 차지함
+inline과 block 가운데 배치는 설정이 다르다 ※center 참고
+/*/주석

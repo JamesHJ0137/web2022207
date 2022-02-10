@@ -1,0 +1,40 @@
+.item {
+    font-size: 2em;
+    text-align: center;
+}
+
+.item:nth-child(odd) {
+    background-color: gold;
+    color: deeppink;
+}
+
+.item:nth-child(even) {
+    background-color: indigo;
+    color: white;
+}
+
+.box {
+    display: flex;
+    height: 300px;
+
+}
+
+.menu-container {
+    display: flex;
+    background-color: #222;
+}
+
+.menu-item {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px 15px;
+    text-align: center;
+    color: azure;
+    border: 2px solid #222;
+    box-sizing: border-box;
+}
+
+.menu-item:hover {
+    background-color: #999;
+    border-bottom-color: gold;
+}

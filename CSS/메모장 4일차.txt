@@ -16,3 +16,4 @@ display:none;→요소는 존재하지만 브라우저 표시되지 않음
 visibility: hidden; 브라우저에 표시 안되지만 공간은 차지함
 inline과 block 가운데 배치는 설정이 다르다 ※center 참고
 /*/주석
+Class 작성 확실하게 하면 만들기 편함

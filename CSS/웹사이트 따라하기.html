@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
+      integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .top,
+      .nav {
+        display: flex;
+        justify-content: space-between;
+      }
+      .nav {
+          background-color: #282A35;
+          color: #f1f1f1;
+          font-size: 13px;
+          font-family: sans-serif;
+          z-index: 2;
+          width: 100%;
+          padding: 0%;
+          letter-spacing: 1px;
+      }
+      .top-left,
+      .top-right,
+      .nav-left,
+      .nav-right {
+        display: flex;
+      }
+      .top-menu-item,
+      .nav-menu-item {
+        padding: 10px 20px;
+      }
+      .top > .top-left > .top-menu-item:nth-child(1) {
+          display:flex;
+          width: 50px;
+          height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="top">
+      <div class="top-left">
+        <div class="top-menu-item"><img src="w3schools-logo.png" alt=""></div>
+        <div class="top-menu-item">Tutorials <i class="fa-solid fa-caret-down"></i></div>
+        <div class="top-menu-item">References <i class="fa-solid fa-caret-down"></i></div>
+        <div class="top-menu-item">Exercises <i class="fa-solid fa-caret-down"></i></div>
+        <div class="top-menu-item">Videos</div>
+      </div>
+      <div class="top-right">
+        <div class="top-menu-item">Website</div>
+        <div class="top-menu-item">Paid-Courses</div>
+        <div class="top-menu-item">Log-in</div>
+      </div>
+    </div>
+
+    <div class="nav">
+        <div class="nav-left">
+            <div class="nav-menu-item">HOME</div>
+            <div class="nav-menu-item">HTML</div>
+            <div class="nav-menu-item">CSS</div>
+            <div class="nav-menu-item">JAVASCRIPT</div>
+            <div class="nav-menu-item">SQL</div>
+            <div class="nav-menu-item">PYTHON</div>
+            <div class="nav-menu-item">PHP</div>
+            <div class="nav-menu-item">BOOTSTRAP</div>
+            <div class="nav-menu-item">HOW-TO</div>
+            <div class="nav-menu-item">W3.CSS</div>
+            <div class="nav-menu-item">JAVA</div>
+            <div class="nav-menu-item">JQUERY</div>
+        </div>
+        <div class="nav-right">
+            <div class="nav-menu-item"><i class="fa-solid fa-circle-half-stroke"></i></div>
+            <div class="nav-menu-item"><i class="fa-solid fa-earth-asia"></i></div>
+            <div class="nav-menu-item"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
